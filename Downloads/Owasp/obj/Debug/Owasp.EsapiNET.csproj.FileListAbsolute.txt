@@ -1,0 +1,10 @@
+C:\Users\u2\source\repos\Owasp.Esapi\obj\Debug\Owasp.EsapiNET.csproj.CoreCompileInputs.cache
+C:\Users\u2\source\repos\Owasp.EsapiNET\obj\Debug\Owasp.EsapiNET.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\repos\Owasp.EsapiNET\obj\Debug\Owasp.EsapiNET.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\repos\Owasp.EsapiNET\obj\Debug\Owasp.EsapiNET.csprojAssemblyReference.cache
+C:\Users\user\Desktop\repos\Owasp.EsapiNET\bin\Debug\Owasp.Esapi.dll
+C:\Users\user\Desktop\repos\Owasp.EsapiNET\bin\Debug\Owasp.Esapi.pdb
+C:\Users\user\Desktop\repos\Owasp.EsapiNET\bin\Debug\log4net.dll
+C:\Users\user\Desktop\repos\Owasp.EsapiNET\obj\Debug\Owasp.EsapiNET.csproj.CopyComplete
+C:\Users\user\Desktop\repos\Owasp.EsapiNET\obj\Debug\Owasp.Esapi.dll
+C:\Users\user\Desktop\repos\Owasp.EsapiNET\obj\Debug\Owasp.Esapi.pdb

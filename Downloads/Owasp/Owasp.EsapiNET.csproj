@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\u2\Downloads\Owasp.Esapi.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16BCD6AF-3241-488B-9549-CE38AF00DF43}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Owasp.Esapi</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Owasp.Esapi</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\source\repos\Web_Esapi\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="User.cs" />
+    <Compile Include="SafeFile.cs" />
+    <Compile Include="Esapi.cs" />
+    <Compile Include="Encryptor.cs" />
+    <Compile Include="SecurityConfiguration.cs" />
+    <Compile Include="IntrusionDetector.cs" />
+    <Compile Include="HttpUtilities.cs" />
+    <Compile Include="Executor.cs" />
+    <Compile Include="AccessReferenceMap.cs" />
+    <Compile Include="Validator.cs" />
+    <Compile Include="EncryptedProperties.cs" />
+    <Compile Include="Encoder.cs" />
+    <Compile Include="Randomizer.cs" />
+    <Compile Include="AccessController.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Authenticator.cs" />
+    <Compile Include="Threshold.cs" />
+    <Compile Include="Interfaces\IUser.cs" />
+    <Compile Include="Interfaces\IAccessController.cs" />
+    <Compile Include="Interfaces\IAccessReferenceMap.cs" />
+    <Compile Include="Interfaces\IEncryptor.cs" />
+    <Compile Include="Interfaces\ISecurityConfiguration.cs" />
+    <Compile Include="Interfaces\IIntrusionDetector.cs" />
+    <Compile Include="Interfaces\IHttpUtilities.cs" />
+    <Compile Include="Interfaces\IExecutor.cs" />
+    <Compile Include="Interfaces\IValidator.cs" />
+    <Compile Include="Interfaces\IEncryptedProperties.cs" />
+    <Compile Include="Interfaces\IEncoder.cs" />
+    <Compile Include="Interfaces\IRandomizer.cs" />
+    <Compile Include="Interfaces\ILogger.cs" />
+    <Compile Include="Interfaces\IAuthenticator.cs" />
+    <Compile Include="Interfaces\ILogger_Fields.cs" />
+    <Compile Include="Errors\EnterpriseSecurityException.cs" />
+    <Compile Include="Errors\AuthenticationException.cs" />
+    <Compile Include="Errors\AuthenticationLoginException.cs" />
+    <Compile Include="Errors\ValidationException.cs" />
+    <Compile Include="Errors\ValidationUploadException.cs" />
+    <Compile Include="Errors\IntegrityException.cs" />
+    <Compile Include="Errors\EncryptionException.cs" />
+    <Compile Include="Errors\IntrusionException.cs" />
+    <Compile Include="Errors\AccessControlException.cs" />
+    <Compile Include="Errors\CertificateException.cs" />
+    <Compile Include="Errors\AvailabilityException.cs" />
+    <Compile Include="Errors\AuthenticationAccountsException.cs" />
+    <Compile Include="Errors\ValidationAvailabilityException.cs" />
+    <Compile Include="Errors\AuthenticationHostException.cs" />
+    <Compile Include="Errors\AuthenticationCredentialsException.cs" />
+    <Compile Include="Errors\ExecutorException.cs" />
+    <Compile Include="Errors\EncodingException.cs" />
+    <Compile Include="Filters\EsapiFilter.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

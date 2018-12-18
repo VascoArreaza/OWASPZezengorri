@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owasp.EsapiNET", "Owasp.EsapiNET.csproj", "{16BCD6AF-3241-488B-9549-CE38AF00DF43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16BCD6AF-3241-488B-9549-CE38AF00DF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BCD6AF-3241-488B-9549-CE38AF00DF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BCD6AF-3241-488B-9549-CE38AF00DF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BCD6AF-3241-488B-9549-CE38AF00DF43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B48FD9BB-10FE-401B-805C-D22C6B76ECAA}
+	EndGlobalSection
+EndGlobal
