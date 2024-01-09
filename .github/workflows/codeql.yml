@@ -34,7 +34,7 @@ jobs:
 
     - name: Build
       run: |
-        msbuild /t:Build /p:Configuration=Owasp.EsapiNET.sln
+        msbuild /t:Build /p:Configuration=Downloads/Owasp/Owasp.EsapiNET.sln
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
