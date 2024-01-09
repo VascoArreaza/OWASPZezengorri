@@ -33,8 +33,9 @@ jobs:
         languages: ${{ matrix.language }}
 
     - name: Build
-      run: |
-        msbuild /t:Build /p:Configuration=Downloads/Owasp/Owasp.EsapiNET.sln
+      run: | 
+       cd Downloads/Owasp
+       msbuild /t:Build /p:Configuration=Release Owasp.EsapiNET.sln
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
