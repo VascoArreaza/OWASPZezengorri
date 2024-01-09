@@ -52,6 +52,6 @@ jobs:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-            .\.sonar\scanner\dotnet-sonarscanner begin /k:"VascoArreaza_OWASPZezengorri" /o:"Gustavo Arreaza" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
+            .\.sonar\scanner\dotnet-sonarscanner begin /k:"VascoArreaza_OWASPZezengorri" /o:"Gustavo%20Arreaza" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
             '& "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\MSBuild.exe" /t:Clean,Build /p:Configuration=Release'
             .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
