@@ -56,5 +56,5 @@ jobs:
         shell: powershell
         run: |
             .\.sonar\scanner\dotnet-sonarscanner begin /k:"VascoArreaza_OWASPZezengorri" /o:"vascoarreaza" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-             msbuild -t:rebuild -property:Configuration=Release
+             msbuild Downloads\Owasp\Owasp.EsapiNET.sln -t:rebuild -property:Configuration=Release
             .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
