@@ -37,9 +37,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net">
-      <HintPath>..\..\..\source\repos\Web_Esapi\log4net.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Web" />
     <Reference Include="System" />
@@ -75,7 +72,6 @@
     <Compile Include="Interfaces\IEncryptedProperties.cs" />
     <Compile Include="Interfaces\IEncoder.cs" />
     <Compile Include="Interfaces\IRandomizer.cs" />
-    <Compile Include="Interfaces\ILogger.cs" />
     <Compile Include="Interfaces\IAuthenticator.cs" />
     <Compile Include="Interfaces\ILogger_Fields.cs" />
     <Compile Include="Errors\EnterpriseSecurityException.cs" />
