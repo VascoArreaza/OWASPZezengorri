@@ -36,7 +36,6 @@ namespace Owasp.Esapi
     private const string DIGITAL_SIGNATURE_ALGORITHM = "DigitalSignatureAlgorithm";
     private const string RESPONSE_CONTENT_TYPE = "ResponseContentType";
     private const string REMEMBER_TOKEN_DURATION = "RememberTokenDuration";
-    private const string LOG_LEVEL = "LogLevel";
     private const string REQUIRE_SECURE_CHANNEL = "RequireSecureChannel";
     protected const int MAX_REDIRECT_LOCATION = 1000;
     protected const int MAX_FILE_NAME_LENGTH = 1000;
