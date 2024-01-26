@@ -4,8 +4,7 @@
 // MVID: 6AEE56C8-668B-47C7-A220-9A96BB995F18
 // Assembly location: C:\Users\u2\Downloads\Owasp.Esapi.dll
 
-using log4net;
-using log4net.Core;
+
 using Owasp.Esapi.Interfaces;
 using System;
 using System.Collections;
@@ -15,13 +14,13 @@ using System.Web;
 
 namespace Owasp.Esapi
 {
-  public class Logger : Owasp.Esapi.Interfaces.ILogger
+  public class Logger : Owasp.Esapi.Interfaces
   {
-    private ILog logger = (ILog) null;
+    
     private string applicationName = (string) null;
     private string moduleName = (string) null;
 
-        private Logger(string applicationName, string moduleName, ILog logger)
+        private Logger(string applicationName, string moduleName, I)
         {
             this.applicationName = applicationName;
             this.moduleName = moduleName;
@@ -52,13 +51,12 @@ namespace Owasp.Esapi
           stringBuilder.Append("&");
       }
       string message = request.RequestType + " " + (object) request.RawUrl + (stringBuilder.Length > 0 ? (object) ("?" + (object) stringBuilder) : (object) "");
-      this.LogSuccess(ILogger_Fields.SECURITY, message);
+
     }
 
     public static Logger GetLogger(string applicationName, string moduleName)
     {
-      ILog logger = LogManager.GetLogger(applicationName + ":" + moduleName);
-      return new Logger(applicationName, moduleName, logger);
+      return 0;
     }
 
     public virtual void LogTrace(string type, string message, Exception throwable)
