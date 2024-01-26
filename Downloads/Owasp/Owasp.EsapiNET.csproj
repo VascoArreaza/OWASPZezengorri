@@ -57,7 +57,6 @@
     <Compile Include="Encoder.cs" />
     <Compile Include="Randomizer.cs" />
     <Compile Include="AccessController.cs" />
-    <Compile Include="Logger.cs" />
     <Compile Include="Authenticator.cs" />
     <Compile Include="Threshold.cs" />
     <Compile Include="Interfaces\IUser.cs" />
@@ -73,7 +72,6 @@
     <Compile Include="Interfaces\IEncoder.cs" />
     <Compile Include="Interfaces\IRandomizer.cs" />
     <Compile Include="Interfaces\IAuthenticator.cs" />
-    <Compile Include="Interfaces\ILogger_Fields.cs" />
     <Compile Include="Errors\EnterpriseSecurityException.cs" />
     <Compile Include="Errors\AuthenticationException.cs" />
     <Compile Include="Errors\AuthenticationLoginException.cs" />
